@@ -117,10 +117,12 @@ align-items: flex-end;
 .portada2 {width: 107rem;
 height: 18rem;}
 
-.nosotros { width: 107rem;
-height: 30rem;
-margin-bottom: 20px;}
-
+.nosotros {background-image: url(../img/nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 100%;}
 
 .padre-desarrollo {
     display: grid;
@@ -258,8 +260,12 @@ input { width: 100%;
 }
 
 .cotizaciones-img 
-    {width: 107rem ;
-    height: 35rem;
+    {background-image: url(../img/cotizaciones.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 60vh;
+    width: 100%;
    }
 
 .padre-seccion {
