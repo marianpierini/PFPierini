@@ -35,10 +35,22 @@ a {text-decoration: none;
 .nav-item a {
     color: white;  
     margin: 10px;
+    text-align: center;
     }
 
-.dropdown-menu {
-    margin: 10px;
+ .nav-item a:hover {background-color: white;
+    color: black;}
+
+.navbar-brand:hover {background-color: white;
+color: black;}
+
+
+.dropdown-menu li {max-width: 18rem;
+text-align: center;}
+
+
+@media (min-width:992px) {
+    .dropdown-menu li {max-width: 9rem;}
 }
 
 .dropdown-item {
