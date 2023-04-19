@@ -23,9 +23,11 @@ a {text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
-.navbar  a {padding: 3px;
+.navbar  a {padding: 5px;
     border:solid white;
     color: white;}
+
+.nav-item :active {color: rgb(249, 4, 4)}
 
 .navbar ul {
     background-color: black;
@@ -36,7 +38,14 @@ a {text-decoration: none;
     color: white;  
     margin: 10px;
     text-align: center;
-    }
+        }
+
+.navbar-brand {
+    font-weight: lighter;
+    font-size: unset;
+    margin: 10px
+    ;
+}
 
  .nav-item a:hover {background-color: white;
     color: black;}
@@ -110,9 +119,17 @@ justify-content: space-around;
 align-items: flex-end;
 }
 
-.logo { width: 9rem;
+@media (max-width:998px) {
+    header {align-items: center;}
+}
+
+.logo { 
+     width: 9rem;
     margin: 10px 0px 5px 0px ;
 }
+
+
+
 
 .portada2 {width: 107rem;
 height: 18rem;}
@@ -147,6 +164,7 @@ height: 18rem;}
     max-width: 100%;
     color: white;
     text-align: center;
+    padding: 20px;
  }
 
 
@@ -157,6 +175,7 @@ height: 18rem;}
     border: double white;
     color: white;
     text-align: center;
+    padding: 20px;
 }
 
 .div-desarrollos3 {  
@@ -166,6 +185,7 @@ height: 18rem;}
     color: white;
     text-align: center;
     align-self: self-end ;
+    padding: 20px;
 }
 
 .div-desarrollos4 {
@@ -176,6 +196,7 @@ height: 18rem;}
     color: white;
     text-align: center;
     align-self: self-start;
+    padding: 20px;
 }
 
 
@@ -287,7 +308,7 @@ gap: 30px;}
     flex-direction: row-reverse;
 }
 
-@media (max-width:540px) {
+@media (max-width:740px) {
     .seccion {flex-direction: column;}
     
 }
