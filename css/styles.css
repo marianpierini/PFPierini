@@ -115,6 +115,11 @@ header .logo {
   color: black;
 }
 
+.show {
+  color: black;
+  background-color: white;
+}
+
 .dropdown-menu li {
   max-width: 18rem;
   text-align: center;
@@ -148,11 +153,6 @@ span {
     background-position: -200px;
   }
 }
-.textos {
-  text-align: center;
-  margin: 30px;
-}
-
 .padre-seccion {
   display: flex;
   flex-direction: column;
@@ -170,7 +170,12 @@ span {
   width: 1800px;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 850px) {
+  .padre-seccion .seccion {
+    gap: 0px;
+  }
+}
+@media (max-width: 850px) {
   .seccion {
     flex-direction: column;
   }
@@ -200,6 +205,11 @@ span {
   flex-direction: row-reverse;
 }
 
+@media (max-width: 850px) {
+  .reversa {
+    flex-direction: column;
+  }
+}
 .footerpadre {
   display: flex;
   flex-direction: row;
@@ -329,6 +339,14 @@ span {
 }
 .mepadre .mehijo img {
   border-radius: 5px;
+  transition: 1s;
+  cursor: pointer;
+}
+.mepadre .mehijo img:hover {
+  transform: scale(1.03);
+}
+.mepadre .mehijo img:active {
+  transform: scale(1.5);
 }
 
 @media (min-width: 1200px) {
@@ -362,7 +380,15 @@ span {
   justify-self: stretch;
   background-position: center;
   align-self: stretch;
+  cursor: pointer;
   margin: 0 5px 10px 5px;
+  transition: 1s;
+}
+.f1:hover, .f2:hover, .f3:hover, .f4:hover, .f5:hover, .f6:hover, .f7:hover, .f8:hover, .f9:hover, .f10:hover, .f11:hover {
+  transform: scale(1.03);
+}
+.f1:active, .f2:active, .f3:active, .f4:active, .f5:active, .f6:active, .f7:active, .f8:active, .f9:active, .f10:active, .f11:active {
+  transform: scale(1.5);
 }
 
 .f1 {
@@ -452,6 +478,16 @@ span {
   margin: 15px 0px 15px 0px;
   align-items: stretch;
 }
+.gridm2 .hijogridm2 img {
+  transition: 1s;
+  cursor: pointer;
+}
+.gridm2 .hijogridm2 img:hover {
+  transform: scale(1.03);
+}
+.gridm2 .hijogridm2 img:hover:active {
+  transform: scale(1.5);
+}
 @media (max-width: 740px) {
   .gridm2 .hijogridm2 {
     grid-template-columns: 90%;
@@ -473,6 +509,13 @@ span {
 .carousel-inner .carousel-item {
   border: solid 10px rgb(66, 145, 149);
   border-radius: 3px;
+}
+.carousel-inner .carousel-item img {
+  cursor: pointer;
+  transition: 1s;
+}
+.carousel-inner .carousel-item img:active {
+  transform: scale(1.2);
 }
 
 .cotizaciones-img {

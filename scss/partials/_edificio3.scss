@@ -23,10 +23,16 @@
     justify-content: space-evenly;
     margin: 15px 0px 15px 0px;
     align-items: stretch;
+    img {
+        transition: 1s;
+        cursor: pointer;
+        &:hover {transform: scale(1.03);
+        &:active {transform: scale(1.5);}}}
     @media (max-width:740px) {
         grid-template-columns: 90%;
         gap: 20px}
         img {border-radius: 3px;
         border: solid 10px rgb(66, 145, 149)}
+        
        }
     }

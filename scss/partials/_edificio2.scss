@@ -32,9 +32,12 @@ padding: 20px;
     justify-self: stretch;
     background-position: center;
     align-self: stretch;
+    cursor: pointer;
     margin: 0 5px 10px 5px;
-    
-   }
+    transition: 1s;
+    &:hover {transform: scale(1.03);}
+    &:active {transform: scale(1.5);}
+       }
 
 .f1 {
     background-image: url(../img/foto1.jpg);

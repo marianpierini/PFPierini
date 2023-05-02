@@ -5,7 +5,11 @@
      padding: 50px;
     .carousel-item {
         border: solid 10px rgb(66, 145, 149);
-        border-radius: 3px;}}
+        border-radius: 3px;
+        img {cursor: pointer;
+            transition: 1s;
+            &:active {transform: scale(1.2);}}
+    }}
     
 
     

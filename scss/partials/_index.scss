@@ -9,10 +9,6 @@
         .panoramica {background-position: -200px;}
     }
 
-.textos {
-  text-align: center;
-  margin: 30px;}
-
 .padre-seccion {
    display:flex;
    flex-direction: column;
@@ -25,8 +21,13 @@
             height: 500px;
             width: 1800px; }}}
 
- @media (max-width:740px) {
- .seccion {flex-direction: column;}}
+@media (max-width:850px) {
+    .padre-seccion .seccion {gap:0px}}
+
+
+ @media (max-width:850px) {
+ .seccion {flex-direction: column;
+   }}
 
 .grid-seccion {
     display: grid;
@@ -47,3 +48,7 @@
 .reversa {
     flex-direction: row-reverse;
     }
+
+@media (max-width:850px) {
+        .reversa {flex-direction: column;
+        }}
