@@ -1,0 +1,52 @@
+.cotizaciones-img 
+    {background-image: url(../img/cotizaciones.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 60vh;
+    width: 100%;
+   }
+
+.form-cotizaciones { 
+    background-color: rgb(66, 145, 149);
+    display: grid;
+    grid-template-columns: 50%;
+    align-items: center;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+    padding-top: 20px;
+    border: solid black;
+    gap: 10px;}
+
+.formhijo1 {
+    display: grid;
+    gap: 3px;
+    text-align: start;
+    }
+.formhijo2 {
+    display: grid;   
+    margin-top: 10px;
+    gap: 3px;
+    text-align: start;
+    }
+
+
+.formhijo4 { 
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    input {
+        height: 30px;}}
+
+@media (min-width: 740px) {
+.formhijo1 {
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 25% 25% 25% 25%;}
+    .formhijo2 {
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 50% 50%;}
+    }

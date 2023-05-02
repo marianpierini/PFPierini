@@ -1,0 +1,47 @@
+.contacto {
+    display: grid;
+    grid-template-columns: 70%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    .ubi-contacto {
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: rgb(66, 145, 149);
+        border: solid black;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 20px;    
+        padding-bottom: 20px;
+        iframe { 
+            width: 100%;
+            padding: 15px;}}}
+
+.contacto {
+    display: grid;
+    grid-template-columns: 70%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    .form-contacto {
+        display: grid;
+        grid-template-columns: 70%;
+        grid-template-rows: 20% 80%;
+        background-color: rgb(66, 145, 149);
+        border: solid black;
+        margin: 3px;
+        margin-bottom: 30px;
+        padding: 50px;
+        text-align: center;
+        justify-content: center;
+        .formhijo3 {
+            display: grid;
+            gap: 3px;
+            text-align: start;
+            margin-top: 10px;
+            @media (min-width: 740px) 
+            {grid-template-columns: 25% 75%;}
+        }}}

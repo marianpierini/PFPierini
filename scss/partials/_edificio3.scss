@@ -1,0 +1,32 @@
+.gridm2 {
+    display: grid;
+    .hijogridm22 {
+        display: grid;
+        grid-template-columns: 35% 65%;
+        justify-items:stretch;
+        align-items: center;
+       background-color: rgb(66, 145, 149);
+       border-radius: 3px;
+       border: solid 15px rgb(66, 145, 149);
+        margin: 5px 10px 5px 10px;
+        color: white;
+        img {width: 1000px;
+        height: 500px;
+    } }}
+
+.gridm2 {
+   display: grid;
+   .hijogridm2 {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap : 10px;
+    justify-content: space-evenly;
+    margin: 15px 0px 15px 0px;
+    align-items: stretch;
+    @media (max-width:740px) {
+        grid-template-columns: 90%;
+        gap: 20px}
+        img {border-radius: 3px;
+        border: solid 10px rgb(66, 145, 149)}
+       }
+    }

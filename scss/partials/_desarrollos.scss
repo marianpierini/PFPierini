@@ -1,0 +1,64 @@
+.padre-desarrollo {
+    display: grid;
+    grid-template-areas: 
+    "d1 d1  . ."
+    "d1 d1   d2 d2"
+    ". .   d2 d2"
+    "d3 d3   . ."
+    "d3 d3   d4 d4"
+    ". .  d4 d4";
+    max-width: 100%;
+    gap: 20px;
+    align-items: center;
+    margin: 20px 20px 0px 20px;
+    .div-desarrollos1 {
+        border: double white;
+        grid-area: d1;
+        background-color: rgb(66, 145, 149);
+        max-width: 100%;
+        color: white;
+        text-align: center;
+        padding: 20px;}}
+
+@media (max-width:740px) {
+      .padre-desarrollo {display: flex;
+       flex-direction: column ;
+       margin: 20px;
+       gap: 30px;}
+   }
+
+ .div-desarrollos2 {  
+    grid-area: d2;
+    background-color: rgb(66, 145, 149);
+    max-width: 100%;
+    border: double white;
+    color: white;
+    text-align: center;
+    padding: 20px;}
+
+.div-desarrollos3 {  
+ grid-area: d3;
+ background-color: rgb(66, 145, 149);
+ border: double white;
+ color: white;
+ text-align: center;
+ align-self: self-end ;
+ padding: 20px;}
+
+.div-desarrollos4 {
+   grid-area: d4;
+   background-color: rgb(66, 145, 149);
+   border: double white;
+    max-width: 100%;
+    color: white;
+    text-align: center;
+    align-self: self-start;
+   padding: 20px;
+   .oferta {color: white ;
+    background-color: red;}}
+
+            
+
+        
+     
+    
