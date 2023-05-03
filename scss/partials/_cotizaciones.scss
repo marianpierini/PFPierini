@@ -26,10 +26,8 @@
     text-align: start;
     }
 .formhijo2 {
-    display: grid;   
     margin-top: 10px;
-    gap: 3px;
-    text-align: start;
+    @extend .formhijo1
     }
 
 

@@ -1,9 +1,5 @@
 .nosotros {background-image: url(../img/nosotros.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 60vh;
-    width: 100%;}
+    @extend .cotizaciones-img}
 
 .historia {background-color: rgb(66, 145, 149);
     margin: 20px;

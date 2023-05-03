@@ -35,11 +35,18 @@ footer {
   color: white;
 }
 
-.titulos {
+.titulos, .titulos2 {
   display: block;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
+  text-decoration: underline;
+  color: white;
+}
+
+.titulos2 {
+  color: black;
+  margin-top: 20px;
 }
 
 .bordes {
@@ -287,7 +294,7 @@ span {
   background-color: red;
 }
 
-.pelli1 {
+.pelli1, .pelli3, .pelli2 {
   background-image: url(../img/pellidia.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -299,22 +306,11 @@ span {
 
 .pelli2 {
   background-image: url(../img/pellitarde.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  max-width: 100%;
   height: 50vh;
 }
 
 .pelli3 {
   background-image: url(../img/pellinoche.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  max-width: 100%;
-  height: 60vh;
 }
 
 .mepadre {
@@ -339,6 +335,7 @@ span {
 }
 .mepadre .mehijo img {
   border-radius: 5px;
+  border: solid 10px rgb(66, 145, 149);
   transition: 1s;
   cursor: pointer;
 }
@@ -346,7 +343,7 @@ span {
   transform: scale(1.03);
 }
 .mepadre .mehijo img:active {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 
 @media (min-width: 1200px) {
@@ -368,8 +365,10 @@ span {
     flex-direction: column;
     gap: 20px;
     margin: 0 20px 20px 20px;
-    background-color: rgb(66, 145, 149);
-    padding: 20px;
+  }
+  .galeriapadrem1 div {
+    border: solid 10px rgb(66, 145, 149);
+    border-radius: 3px;
   }
 }
 .f1, .f2, .f3, .f4, .f5, .f6, .f7, .f8, .f9, .f10, .f11 {
@@ -388,7 +387,7 @@ span {
   transform: scale(1.03);
 }
 .f1:active, .f2:active, .f3:active, .f4:active, .f5:active, .f6:active, .f7:active, .f8:active, .f9:active, .f10:active, .f11:active {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 
 .f1 {
@@ -486,7 +485,7 @@ span {
   transform: scale(1.03);
 }
 .gridm2 .hijogridm2 img:hover:active {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 @media (max-width: 740px) {
   .gridm2 .hijogridm2 {
@@ -518,7 +517,7 @@ span {
   transform: scale(1.2);
 }
 
-.cotizaciones-img {
+.cotizaciones-img, .nosotros {
   background-image: url(../img/cotizaciones.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -541,17 +540,14 @@ span {
   gap: 10px;
 }
 
-.formhijo1 {
+.formhijo1, .formhijo2 {
   display: grid;
   gap: 3px;
   text-align: start;
 }
 
 .formhijo2 {
-  display: grid;
   margin-top: 10px;
-  gap: 3px;
-  text-align: start;
 }
 
 .formhijo4 {
@@ -566,7 +562,7 @@ span {
 }
 
 @media (min-width: 740px) {
-  .formhijo1 {
+  .formhijo1, .formhijo2 {
     grid-template-columns: 25% 75%;
     grid-template-rows: 25% 25% 25% 25%;
   }
@@ -577,11 +573,6 @@ span {
 }
 .nosotros {
   background-image: url(../img/nosotros.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
-  width: 100%;
 }
 
 .historia {
@@ -617,15 +608,7 @@ span {
   padding: 15px;
 }
 
-.contacto {
-  display: grid;
-  grid-template-columns: 70%;
-  color: white;
-  text-align: center;
-  justify-content: center;
-  gap: 50px;
-}
-.contacto .form-contacto {
+.form-contacto {
   display: grid;
   grid-template-columns: 70%;
   grid-template-rows: 20% 80%;
@@ -637,14 +620,14 @@ span {
   text-align: center;
   justify-content: center;
 }
-.contacto .form-contacto .formhijo3 {
+.form-contacto .formhijo3 {
   display: grid;
   gap: 3px;
   text-align: start;
   margin-top: 10px;
 }
 @media (min-width: 740px) {
-  .contacto .form-contacto .formhijo3 {
+  .form-contacto .formhijo3 {
     grid-template-columns: 25% 75%;
   }
 }

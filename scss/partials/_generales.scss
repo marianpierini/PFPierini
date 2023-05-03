@@ -27,10 +27,17 @@ padding: 5px;}
 
 .titulos {display: block;
   text-align: center;
-  margin-top: 20px; 
+  margin-top: 10px; 
   margin-bottom: 20px;
+  text-decoration: underline;
+  color: white
 }
 
+.titulos2 {
+  @extend .titulos;
+  color: black;
+  margin-top: 20px;
+}
 .bordes {background-color: rgb(66, 145, 149);
   padding: 30px;
   border-radius: 3px;

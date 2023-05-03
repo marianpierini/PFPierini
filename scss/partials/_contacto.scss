@@ -19,14 +19,7 @@
             width: 100%;
             padding: 15px;}}}
 
-.contacto {
-    display: grid;
-    grid-template-columns: 70%;
-    color: white;
-    text-align: center;
-    justify-content: center;
-    gap: 50px;
-    .form-contacto {
+.form-contacto {
         display: grid;
         grid-template-columns: 70%;
         grid-template-rows: 20% 80%;
@@ -44,4 +37,4 @@
             margin-top: 10px;
             @media (min-width: 740px) 
             {grid-template-columns: 25% 75%;}
-        }}}
+        }}
