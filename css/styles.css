@@ -74,6 +74,27 @@ input {
   height: 22px;
 }
 
+.meinteresa {
+  display: flex;
+  justify-content: center;
+}
+.meinteresa a {
+  background-color: rgb(66, 145, 149);
+  margin: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  border: solid black;
+  transition: 0.5s;
+}
+.meinteresa a:hover {
+  transform: scale(1.1);
+  color: black;
+  border: solid white;
+}
+.meinteresa a:active {
+  transform: scale(1.2);
+}
+
 header {
   background-color: black;
   display: flex;
@@ -106,6 +127,7 @@ header .logo {
   color: white;
   padding: 5px;
   border: solid white;
+  transition: 0.5s;
 }
 .navbar-brand:hover {
   background-color: white;
@@ -116,6 +138,7 @@ header .logo {
   color: white;
   margin: 10px;
   text-align: center;
+  transition: 0.5s;
 }
 .nav-item a:hover {
   background-color: white;
@@ -559,6 +582,20 @@ span {
 }
 .formhijo4 input {
   height: 30px;
+  margin: 10px;
+  border-radius: 3px;
+  background-color: white;
+  color: black;
+  border: solid black;
+  transition: 0.5s;
+}
+.formhijo4 input:hover {
+  color: white;
+  background-color: black;
+  border: solid white;
+}
+.formhijo4 input:hover:active {
+  transform: scale(1.1);
 }
 
 @media (min-width: 740px) {

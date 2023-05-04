@@ -29,6 +29,7 @@ header {background-color: black;
     color: white;
     padding: 5px;
     border: solid white;
+    transition: .5s;
     &:hover {
         background-color: white;
         color: black;}}
@@ -38,6 +39,7 @@ header {background-color: black;
     color: white;  
     margin: 10px;
     text-align: center;
+    transition: .5s;
     &:hover {background-color: white;
     color: black;}}
 
