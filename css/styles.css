@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(179, 227, 243);
+  background-image: linear-gradient(to left, rgb(211, 255, 233), rgb(99, 179, 183));
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
 }
