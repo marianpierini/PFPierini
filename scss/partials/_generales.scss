@@ -21,9 +21,22 @@ footer {color: white;
 padding: 5px;}
 
 .textos {
+ justify-self: center;
   text-align: center;
   margin: 30px;
   color: white;}
+
+.textos2 {
+  @extend .textos; 
+    margin: 30px 200px 30px 200px;
+    padding: 0 90px 0 90px;
+    @media (max-width:1194px) {
+      margin: 30px;
+      padding: 0;
+      
+    }
+  }
+
 
 .titulos {display: block;
   text-align: center;
