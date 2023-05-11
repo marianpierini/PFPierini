@@ -1,7 +1,7 @@
 * {margin: 0;
   padding: 0;
 }
-body {background-image: linear-gradient(to left, rgb(211, 255, 233), rgb(99, 179, 183));
+body {background-image: linear-gradient(to left, $color-terciario, $color-secundario);
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
   }   
@@ -51,7 +51,7 @@ padding: 5px;}
   color: black;
   margin-top: 20px;
 }
-.bordes {background-color: rgb(66, 145, 149);
+.bordes {background-color: $color-principal;
   padding: 30px;
   border-radius: 3px;
 }
@@ -73,7 +73,7 @@ input { width: 100%;
 
 .meinteresa {display: flex;
   justify-content: center;
-  a {background-color: rgb(66, 145, 149);
+  a {background-color: $color-principal;
     margin: 20px;
     padding: 10px;
     border-radius: 3px;

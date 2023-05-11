@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: linear-gradient(to left, rgb(211, 255, 233), rgb(99, 179, 183));
+  background-image: linear-gradient(to left, #d3ffe9, #63b3b7);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
 }
@@ -62,7 +62,7 @@ footer {
 }
 
 .bordes {
-  background-color: rgb(66, 145, 149);
+  background-color: #429195;
   padding: 30px;
   border-radius: 3px;
 }
@@ -91,7 +91,7 @@ input {
   justify-content: center;
 }
 .meinteresa a {
-  background-color: rgb(66, 145, 149);
+  background-color: #429195;
   margin: 20px;
   padding: 10px;
   border-radius: 3px;
@@ -202,7 +202,7 @@ span {
 }
 .padre-seccion .seccion {
   display: flex;
-  background-color: rgb(66, 145, 149);
+  background-color: #429195;
   align-items: center;
   gap: 30px;
 }
@@ -315,10 +315,10 @@ span {
   margin: 20px 20px 0px 20px;
 }
 .padre-desarrollo .div-desarrollos1 {
-  border: double white;
   grid-area: d1;
-  background-color: rgb(66, 145, 149);
+  background-color: #429195;
   max-width: 100%;
+  border: double white;
   color: white;
   text-align: center;
   padding: 20px;
@@ -334,7 +334,7 @@ span {
 }
 .div-desarrollos2 {
   grid-area: d2;
-  background-color: rgb(66, 145, 149);
+  background-color: #429195;
   max-width: 100%;
   border: double white;
   color: white;
@@ -344,22 +344,23 @@ span {
 
 .div-desarrollos3 {
   grid-area: d3;
-  background-color: rgb(66, 145, 149);
+  align-self: self-end;
+  background-color: #429195;
+  max-width: 100%;
   border: double white;
   color: white;
   text-align: center;
-  align-self: self-end;
   padding: 20px;
 }
 
 .div-desarrollos4 {
   grid-area: d4;
-  background-color: rgb(66, 145, 149);
-  border: double white;
+  align-self: self-start;
+  background-color: #429195;
   max-width: 100%;
+  border: double white;
   color: white;
   text-align: center;
-  align-self: self-start;
   padding: 20px;
 }
 .div-desarrollos4 .oferta {
@@ -369,10 +370,10 @@ span {
 
 .pelli1, .pelli3, .pelli2 {
   background-image: url(../img/pellidia.jpeg);
-  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   max-width: 100%;
   height: 60vh;
 }
@@ -408,7 +409,7 @@ span {
 }
 .mepadre .mehijo img {
   border-radius: 5px;
-  border: solid 10px rgb(66, 145, 149);
+  border: solid 10px #429195;
   transition: 1s;
   cursor: pointer;
 }
@@ -440,7 +441,7 @@ span {
     margin: 0 20px 20px 20px;
   }
   .galeriapadrem1 div {
-    border: solid 10px rgb(66, 145, 149);
+    border: solid 10px #429195;
     border-radius: 3px;
   }
 }
@@ -449,8 +450,8 @@ span {
   height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
-  justify-self: stretch;
   background-position: center;
+  justify-self: stretch;
   align-self: stretch;
   cursor: pointer;
   margin: 0 5px 10px 5px;
@@ -528,9 +529,9 @@ span {
   grid-template-columns: 35% 65%;
   justify-items: stretch;
   align-items: center;
-  background-color: rgb(66, 145, 149);
+  background-color: #429195;
   border-radius: 3px;
-  border: solid 15px rgb(66, 145, 149);
+  border: solid 15px #429195;
   margin: 5px 10px 5px 10px;
   color: white;
 }
@@ -568,7 +569,7 @@ span {
 }
 .gridm2 .hijogridm2 img {
   border-radius: 3px;
-  border: solid 10px rgb(66, 145, 149);
+  border: solid 10px #429195;
 }
 
 .carousel-indicators {
@@ -579,7 +580,7 @@ span {
   padding: 50px;
 }
 .carousel-inner .carousel-item {
-  border: solid 10px rgb(66, 145, 149);
+  border: solid 10px #429195;
   border-radius: 3px;
 }
 .carousel-inner .carousel-item img {
@@ -600,7 +601,7 @@ span {
 }
 
 .form-cotizaciones {
-  background-color: rgb(66, 145, 149);
+  background-color: #429195;
   display: grid;
   grid-template-columns: 50%;
   align-items: center;
@@ -659,7 +660,6 @@ span {
   }
 }
 .show {
-  background: none;
   color: white;
 }
 
@@ -673,7 +673,7 @@ span {
 }
 
 .historia {
-  background-color: rgb(66, 145, 149);
+  background-color: #429195;
   margin: 20px;
   padding: 20px;
   color: white;
@@ -692,7 +692,7 @@ span {
 .contacto .ubi-contacto {
   display: grid;
   grid-template-columns: 100%;
-  background-color: rgb(66, 145, 149);
+  background-color: #429195;
   border: solid black;
   text-align: center;
   justify-content: center;
@@ -709,7 +709,7 @@ span {
   display: grid;
   grid-template-columns: 70%;
   grid-template-rows: 20% 80%;
-  background-color: rgb(66, 145, 149);
+  background-color: #429195;
   border: solid black;
   margin: 3px;
   margin-bottom: 30px;

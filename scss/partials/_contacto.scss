@@ -8,7 +8,7 @@
     .ubi-contacto {
         display: grid;
         grid-template-columns: 100%;
-        background-color: rgb(66, 145, 149);
+        background-color: $color-principal;
         border: solid black;
         text-align: center;
         justify-content: center;
@@ -23,7 +23,7 @@
         display: grid;
         grid-template-columns: 70%;
         grid-template-rows: 20% 80%;
-        background-color: rgb(66, 145, 149);
+        background-color: $color-principal;
         border: solid black;
         margin: 3px;
         margin-bottom: 30px;

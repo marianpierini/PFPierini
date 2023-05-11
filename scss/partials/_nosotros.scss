@@ -1,7 +1,7 @@
 .nosotros {background-image: url(../img/nosotros.jpg);
     @extend .cotizaciones-img}
 
-.historia {background-color: rgb(66, 145, 149);
+.historia {background-color: $color-principal;
     margin: 20px;
     padding: 20px;
     color: white;

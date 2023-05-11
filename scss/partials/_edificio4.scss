@@ -4,7 +4,7 @@
 .carousel-inner {
      padding: 50px;
     .carousel-item {
-        border: solid 10px rgb(66, 145, 149);
+        border: solid 10px $color-principal;
         border-radius: 3px;
         img {cursor: pointer;
             transition: 1s;

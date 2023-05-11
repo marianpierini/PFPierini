@@ -1,0 +1,18 @@
+$color-principal:#429195;
+$color-secundario:#63b3b7;
+$color-terciario:#d3ffe9;
+
+@mixin caja-desarrollo {
+    background-color: $color-principal;
+    max-width: 100%;
+    border: double white;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@mixin portadas {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}

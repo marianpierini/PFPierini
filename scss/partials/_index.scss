@@ -14,7 +14,7 @@
    flex-direction: column;
    gap: 40px;
    .seccion {display: flex;
-    background-color: rgb(66, 145, 149);
+    background-color: $color-principal;
     align-items: center;
     gap: 30px;
     img { margin-top: 0;
