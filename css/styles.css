@@ -534,6 +534,14 @@ span {
   border: solid 15px #429195;
   margin: 5px 10px 5px 10px;
   color: white;
+  gap: 10px;
+}
+@media (max-width: 740px) {
+  .gridm2 .hijogridm22 {
+    grid-template-columns: 90%;
+    justify-content: center;
+    text-align: center;
+  }
 }
 .gridm2 .hijogridm22 img {
   width: 1000px;
@@ -727,14 +735,6 @@ span {
   .form-contacto .formhijo3 {
     grid-template-columns: 25% 75%;
   }
-}
-
-.error {
-  background-image: url(../img/404.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 90vh;
 }
 
 /*# sourceMappingURL=styles.css.map */

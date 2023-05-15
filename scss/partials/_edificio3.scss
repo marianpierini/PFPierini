@@ -10,10 +10,17 @@
        border: solid 15px $color-principal;
         margin: 5px 10px 5px 10px;
         color: white;
+        gap: 10px;
+        @media (max-width:740px) {
+            grid-template-columns: 90%;
+            justify-content: center;
+            text-align: center;
+        }
         img {width: 1000px;
         height: 500px;
     } }}
 
+  
 .gridm2 {
    display: grid;
    .hijogridm2 {
